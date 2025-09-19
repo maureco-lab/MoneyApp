@@ -5,53 +5,137 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center"
-    android:orientation="horizontal"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
     tools:context=".CardCarActivity">
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_height="310dp">
+        android:layout_marginBottom="25dp"
+        android:layout_height="200dp">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/carrozika"
-            android:gravity="center"
+            android:background="@drawable/fiat">
+
+
+            <TextView
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/quicksand"
+                android:text="Fiat Uno"
+                android:textColor="@color/white"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/quicksand"
+                android:text="e outras informações"
+                android:textColor="@color/white"
+                android:textSize="11dp"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/baseline_bookmark_border" />
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_height="200dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/golo"
+
+            >
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="0dp"
+                android:fontFamily="@font/quicksand"
+                android:text="Para ver mais sobre essa nave"
+                android:textColor="@color/white"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/quicksand"
+                android:text="e outras informações"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <Button
+
+                android:layout_width="58dp"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/baseline_bookmark_border" />
+
+
+        </RelativeLayout>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/saveiro"
             android:orientation="vertical">
 
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Para ver mais sobre essa nave"
                 android:layout_marginBottom="0dp"
+                android:fontFamily="@font/quicksand"
+                android:text="Para ver mais sobre essa nave"
                 android:textColor="@color/white"
                 android:textSize="20dp"
-                android:fontFamily="@font/quicksand"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/quicksand"
                 android:text="e outras informações"
                 android:textColor="@color/white"
-                android:layout_marginBottom="30dp"
                 android:textSize="14dp"
-                android:fontFamily="@font/quicksand"
                 android:textStyle="bold" />
 
             <Button
-                android:layout_width="wrap_content"
+
+                android:layout_width="58dp"
                 android:layout_height="wrap_content"
-                style="@style/Widget.Material3.Button.Icon"
-                android:textAppearance="dra"
-                android:textColor="@color/white"
-                android:fontFamily="@font/quicksand"
-                android:text="Clique Aqui" />
+                app:icon="@drawable/baseline_bookmark_border" />
 
 
-        </LinearLayout>
+        </RelativeLayout>
 
 
     </com.google.android.material.card.MaterialCardView>
