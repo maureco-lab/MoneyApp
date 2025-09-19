@@ -24,8 +24,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Para saber mais sobre essa nave"
-                android:layout_marginBottom="10dp"
+                android:text="Para ver mais sobre essa nave"
+                android:layout_marginBottom="0dp"
                 android:textColor="@color/white"
                 android:textSize="20dp"
                 android:fontFamily="@font/quicksand"
@@ -44,7 +44,8 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                style="@style/Widget.Material3.Button.OutlinedButton"
+                style="@style/Widget.Material3.Button.Icon"
+                android:textAppearance="dra"
                 android:textColor="@color/white"
                 android:fontFamily="@font/quicksand"
                 android:text="Clique Aqui" />
