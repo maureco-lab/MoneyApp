@@ -11,40 +11,65 @@
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_marginBottom="25dp"
-        android:layout_height="200dp">
+        android:layout_height="200dp"
+        android:layout_marginBottom="25dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/fiat">
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgFiat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/fiat" />
 
 
             <TextView
-                android:layout_width="194dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="0dp"
                 android:fontFamily="@font/quicksand"
-                android:text="Fiat Uno"
+                android:text="Fiat "
                 android:textColor="@color/white"
-                android:textSize="15dp"
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/quicksand"
+                android:text="Uno"
+                android:textColor="@color/white"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
                 android:textStyle="bold" />
 
             <TextView
-                android:layout_width="77dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
-                android:fontFamily="@font/quicksand"
-                android:text="e outras informações"
+                android:text="Fiat Uno Marlboro Vermelho"
+                android:textSize="30dp"
                 android:textColor="@color/white"
-                android:textSize="11dp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/quicksand"
+                android:layout_alignBottom="@id/imgFiat"
+                />
 
             <Button
-
-                android:layout_width="58dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                app:icon="@drawable/baseline_bookmark_border" />
+                app:icon="@drawable/baseline_bookmark_border"
+                android:layout_margin="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                />
 
 
         </RelativeLayout>
@@ -54,42 +79,66 @@
 
     <com.google.android.material.card.MaterialCardView
         android:layout_width="match_parent"
-        android:layout_marginBottom="25dp"
-        android:layout_height="200dp">
+        android:layout_height="200dp"
+        android:layout_marginBottom="25dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/golo"
 
             >
 
+            <ImageView
+                android:id="@+id/imgGol"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/golo" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="0dp"
                 android:fontFamily="@font/quicksand"
-                android:text="Para ver mais sobre essa nave"
+                android:text="Volkswagen "
                 android:textColor="@color/white"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+
+                />
 
             <TextView
                 android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
                 android:fontFamily="@font/quicksand"
-                android:text="e outras informações"
+                android:text="Gol"
                 android:textColor="@color/white"
-                android:textSize="14dp"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
                 android:textStyle="bold" />
 
-            <Button
-
-                android:layout_width="58dp"
+            <TextView
+                android:layout_width="190dp"
                 android:layout_height="wrap_content"
-                app:icon="@drawable/baseline_bookmark_border" />
+                android:text="Gol 'Bolinha' Prata"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/quicksand"
+                android:layout_alignBottom="@id/imgGol"
+                />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/baseline_bookmark_border"
+                android:layout_margin="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                />
 
 
         </RelativeLayout>
@@ -103,9 +152,14 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:background="@drawable/saveiro"
-            android:orientation="vertical">
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgSav"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/saveiro" />
 
 
             <TextView
@@ -113,27 +167,45 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="0dp"
                 android:fontFamily="@font/quicksand"
-                android:text="Para ver mais sobre essa nave"
+                android:text="Volkswagen "
                 android:textColor="@color/white"
-                android:textSize="20dp"
-                android:textStyle="bold" />
+                android:textSize="18dp"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+
+                />
 
             <TextView
                 android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
                 android:layout_height="wrap_content"
-                android:layout_marginBottom="30dp"
                 android:fontFamily="@font/quicksand"
-                android:text="e outras informações"
+                android:text="Saveiro"
                 android:textColor="@color/white"
-                android:textSize="14dp"
+                android:textSize="16dp"
+                android:layout_margin="10dp"
                 android:textStyle="bold" />
 
-            <Button
-
-                android:layout_width="58dp"
+            <TextView
+                android:layout_width="200dp"
                 android:layout_height="wrap_content"
-                app:icon="@drawable/baseline_bookmark_border" />
+                android:text="Saveiro Preta Completa"
+                android:textSize="30dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/quicksand"
+                android:layout_alignBottom="@id/imgSav"
+                />
 
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:icon="@drawable/baseline_bookmark_border"
+                android:layout_margin="10dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                />
 
         </RelativeLayout>
 
